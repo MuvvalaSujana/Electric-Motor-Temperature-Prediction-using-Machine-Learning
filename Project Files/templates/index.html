@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Motor Temperature Prediction</title>
+</head>
+<body>
+<h2>Electric Motor Temperature Prediction</h2>
+
+<form action="/predict" method="post">
+<input type="text" name="u_q" placeholder="u_q" required><br>
+<input type="text" name="coolant" placeholder="coolant" required><br>
+<input type="text" name="u_d" placeholder="u_d" required><br>
+<input type="text" name="motor_speed" placeholder="motor_speed" required><br>
+<input type="text" name="torque" placeholder="torque" required><br>
+<input type="text" name="i_d" placeholder="i_d" required><br>
+<input type="text" name="i_q" placeholder="i_q" required><br>
+<input type="text" name="ambient" placeholder="ambient" required><br>
+<button type="submit">Predict</button>
+</form>
+
+<h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
