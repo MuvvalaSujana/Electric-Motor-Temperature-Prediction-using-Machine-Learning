@@ -1,0 +1,2 @@
+# Electric-Motor-Temperature-Prediction-using-Machine-Learning
+Electric Motor Temperature Prediction is a machine learning project that forecasts motor temperature using parameters like voltage, current, and speed. Built with Python, Scikit-learn, and Flask, it enables real-time predictions through a web interface to support preventive maintenance, reduce failures, and improve industrial efficiency.
